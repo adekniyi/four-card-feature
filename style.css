@@ -31,12 +31,13 @@
     grid-column-gap: 10px;
     margin: 0 auto;
     width: 68%;
+    justify-items: center;
 }
 
 
 .card1{
     height: 170px;
-    width: 300px;
+    width: 90%;
     background-color: hsl(0, 0%, 98%);
     border: 1px solid hsl(240, 3%, 86%);
     border-top: 5px solid hsl(180, 62%, 55%);
@@ -63,11 +64,12 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 15px;
+    width: 90%;
 }
 
 .subcard1{
     height: 170px;
-    width: 300px;
+    width: 100%;
     background-color: hsl(0, 0%, 98%);
     border-top: 5px solid hsl(0, 78%, 62%);
     border-radius: 10px;
@@ -92,7 +94,7 @@
 
 .subcard2{
     height: 170px;
-    width: 300px;
+    width: 100%;
     background-color: hsl(0, 0%, 98%);
     border-top: 5px solid hsl(34, 97%, 64%);
     border-radius: 10px;
@@ -121,7 +123,7 @@
 
 .card3{
     height: 170px;
-    width: 300px;
+    width: 90%;
     background-color: hsl(0, 0%, 98%);
     border-top: 5px solid hsl(212, 86%, 64%);
     border-radius: 10px;
