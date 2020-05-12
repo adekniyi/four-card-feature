@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+}
+.header p {
+    font-size: 1.4rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 200;
+    color:   hsl(229, 6%, 66%);
+}
+.header h2{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 600;
+}
+.header h6{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 200;
+    color:   hsl(229, 6%, 66%);
+    padding-top: 0.5rem;
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin: 0 auto;
+    width: 68%;
+}
+
+
+.card1{
+    height: 170px;
+    width: 300px;
+    background-color: blue;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+}
+.card1 h4{
+    padding-top: 1rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.card1 p{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 200;
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+.card2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 15px;
+}
+
+.subcard1{
+    height: 170px;
+    width: 300px;
+    background-color: blue;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+}
+.subcard1 h4{
+    padding-top: 1rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.subcard1 p{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 200;
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+
+.subcard2{
+    height: 170px;
+    width: 300px;
+    background-color: blue;
+}
+.subcard2 h4{
+    padding-top: 1rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.subcard2 p{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 200;
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+
+
+
+
+
+.card3{
+    height: 170px;
+    width: 300px;
+    background-color: blue;
+}
+.card3 h4{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.card3 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
